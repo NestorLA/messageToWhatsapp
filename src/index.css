@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gradient-button {
+  background: hsla(13, 100%, 53%, 1);
+
+  background: radial-gradient(
+    circle,
+    hsla(13, 100%, 53%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    hsla(13, 100%, 53%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(13, 100%, 53%, 1) 0%,
+    hsla(1, 62%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF4411", endColorstr="#C5302E", GradientType=1 );
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+}
+
+.gradient-button {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  color: #ff4411;
+  font-size: 48px;
+  font-family: "Signika", sans-serif;
+  padding-bottom: 10px;
+}
+
+label {
+  color: #ff4411;
+}
